@@ -14,6 +14,7 @@
 		84ADFF031CF686E900C067B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ADFF011CF686E900C067B6 /* LaunchScreen.storyboard */; };
 		84ADFF0E1CF686EA00C067B6 /* UIPopViewListViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADFF0D1CF686EA00C067B6 /* UIPopViewListViewDemoTests.swift */; };
 		84ADFF191CF686EA00C067B6 /* UIPopViewListViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADFF181CF686EA00C067B6 /* UIPopViewListViewDemoUITests.swift */; };
+		84ADFF271CF6875600C067B6 /* UIPopoverListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ADFF261CF6875600C067B6 /* UIPopoverListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		84ADFF141CF686EA00C067B6 /* UIPopViewListViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPopViewListViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84ADFF181CF686EA00C067B6 /* UIPopViewListViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPopViewListViewDemoUITests.swift; sourceTree = "<group>"; };
 		84ADFF1A1CF686EB00C067B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ADFF261CF6875600C067B6 /* UIPopoverListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPopoverListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				84ADFEF81CF686E900C067B6 /* AppDelegate.swift */,
 				84ADFEFA1CF686E900C067B6 /* ViewController.swift */,
+				84ADFF261CF6875600C067B6 /* UIPopoverListView.swift */,
 				84ADFEFC1CF686E900C067B6 /* Main.storyboard */,
 				84ADFEFF1CF686E900C067B6 /* Assets.xcassets */,
 				84ADFF011CF686E900C067B6 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				84ADFEFB1CF686E900C067B6 /* ViewController.swift in Sources */,
 				84ADFEF91CF686E900C067B6 /* AppDelegate.swift in Sources */,
+				84ADFF271CF6875600C067B6 /* UIPopoverListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
